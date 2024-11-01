@@ -19,7 +19,7 @@ function loadContent(section) {
             page = '/templates/apiCallWebSocket.html';
             break;
         case 'about':
-            page = '/templates/about.html';
+            page = '/DIHogShareProject/templates/about.html';
             break;
         case 'featuredContent':
             page = '/templates/featuredContent.html';
@@ -46,52 +46,52 @@ function loadContent(section) {
             page = '/templates/styles.html';
             break;
         case 'home':
-                page = '/templates/home.html';
+                page = '/DIHogShareProject/templates/home.html';
                 break;
         case 'requestsubmitted':
-                page = '/templates/requestsubmitted.html';
+                page = '/DIHogShareProject/templates/requestsubmitted.html';
                 break;
         case 'hostrequest':
-                page = '/templates/hostrequest.html';
+                page = '/DIHogShareProject/templates/hostrequest.html';
                 break;
         
         case 'volunteerlogin':
-                page = '/templates/volunteerlogin.html';
+                page = '/DIHogShareProject/templates/volunteerlogin.html';
                 break;
         case 'volunteerdashboard': 
-                page = '/templates/volunteerdashboard.html';
+                page = '/DIHogShareProject/templates/volunteerdashboard.html';
                 break;
         case 'pickuprequestdetails':
-                page = '/templates/pickuprequestdetails.html';
+                page = '/DIHogShareProject/templates/pickuprequestdetails.html';
                 break;
         case 'acceptedrequest':
-                page = '/templates/acceptedrequest.html';
+                page = '/DIHogShareProject/templates/acceptedrequest.html';
                 break;
         case 'confirmfoodpickup':
-                page = '/templates/confirmfoodpickup.html';
+                page = '/DIHogShareProject/templates/confirmfoodpickup.html';
                 break;
         case 'pickupcompleted':
-                page = '/templates/pickupcompleted.html';
+                page = '/DIHogShareProject/templates/pickupcompleted.html';
                 break;
         case 'contact':
-                page = '/templates/contact.html';
+                page = '/DIHogShareProject/templates/contact.html';
                 break;
         case 'profilesettings':
-                page = '/templates/profilesettings.html';
+                page = '/DIHogShareProject/templates/profilesettings.html';
                 break;
         case 'myaccount':
-                page = '/templates/myaccount.html';
+                page = '/DIHogShareProject/templates/myaccount.html';
                 break;
         case 'volunteersignup':
-                page = '/templates/volunteersignup.html';
+                page = '/DIHogShareProject/templates/volunteersignup.html';
                 break;
         case 'viewrequestdetails':
-                page = '/templates/viewrequestdetails.html';
+                page = '/DIHogShareProject/templates/viewrequestdetails.html';
                 break;
        
         
         default:
-            page = '/templates/home.html'; // Default to home page if section is not recognized
+            page = '/DIHogShareProject/templates/home.html'; // Default to home page if section is not recognized
     }
     // Use jQuery's load() to fetch and display the HTML file content dynamically
     $('#main-content').load(page, function(response, status, xhr) {
