@@ -19,7 +19,7 @@ function loadContent(section) {
             page = '/templates/apiCallWebSocket.html';
             break;
         case 'about':
-            page = '/DIHogShareProject/templates/about.html';
+            page = '/DIGroup_RazorbackRecoveryProject/templates/about.html';
             break;
         case 'featuredContent':
             page = '/templates/featuredContent.html';
@@ -46,52 +46,52 @@ function loadContent(section) {
             page = '/templates/styles.html';
             break;
         case 'home':
-                page = '/DIHogShareProject/templates/home.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/home.html';
                 break;
         case 'requestsubmitted':
-                page = '/DIHogShareProject/templates/requestsubmitted.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/requestsubmitted.html';
                 break;
         case 'hostrequest':
-                page = '/DIHogShareProject/templates/hostrequest.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/hostrequest.html';
                 break;
         
         case 'volunteerlogin':
-                page = '/DIHogShareProject/templates/volunteerlogin.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/volunteerlogin.html';
                 break;
         case 'volunteerdashboard': 
-                page = '/DIHogShareProject/templates/volunteerdashboard.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/volunteerdashboard.html';
                 break;
         case 'pickuprequestdetails':
-                page = '/DIHogShareProject/templates/pickuprequestdetails.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/pickuprequestdetails.html';
                 break;
         case 'acceptedrequest':
-                page = '/DIHogShareProject/templates/acceptedrequest.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/acceptedrequest.html';
                 break;
         case 'confirmfoodpickup':
-                page = '/DIHogShareProject/templates/confirmfoodpickup.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/confirmfoodpickup.html';
                 break;
         case 'pickupcompleted':
-                page = '/DIHogShareProject/templates/pickupcompleted.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/pickupcompleted.html';
                 break;
         case 'contact':
-                page = '/DIHogShareProject/templates/contact.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/contact.html';
                 break;
         case 'profilesettings':
-                page = '/DIHogShareProject/templates/profilesettings.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/profilesettings.html';
                 break;
         case 'myaccount':
-                page = '/DIHogShareProject/templates/myaccount.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/myaccount.html';
                 break;
         case 'volunteersignup':
-                page = '/DIHogShareProject/templates/volunteersignup.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/volunteersignup.html';
                 break;
         case 'viewrequestdetails':
-                page = '/DIHogShareProject/templates/viewrequestdetails.html';
+                page = '/DIGroup_RazorbackRecoveryProject/templates/viewrequestdetails.html';
                 break;
        
         
         default:
-            page = '/DIHogShareProject/templates/home.html'; // Default to home page if section is not recognized
+            page = '/DIGroup_RazorbackRecoveryProject/templates/home.html'; // Default to home page if section is not recognized
     }
     // Use jQuery's load() to fetch and display the HTML file content dynamically
     $('#main-content').load(page, function(response, status, xhr) {
