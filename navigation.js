@@ -73,8 +73,8 @@ function loadContent(section) {
         case 'pickupcompleted':
                 page = '/DIGroup_RazorbackRecoveryProject/templates/pickupcompleted.html';
                 break;
-        case 'contact':
-                page = '/DIGroup_RazorbackRecoveryProject/templates/contact.html';
+        case 'help':
+                page = '/DIGroup_RazorbackRecoveryProject/templates/help.html';
                 break;
         case 'profilesettings':
                 page = '/DIGroup_RazorbackRecoveryProject/templates/profilesettings.html';
@@ -136,9 +136,9 @@ $(document).ready(function() {
         event.preventDefault();
         loadContent('myaccount');
     });
-    $('#contact-link').click(function(event) {
+    $('#help-link').click(function(event) {
         event.preventDefault();
-        loadContent('contact');
+        loadContent('help');
     });
 
     $('#logout-link').click(function(event) {
